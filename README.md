@@ -122,8 +122,9 @@ Added descriptive comments.
 
 ## Deployed Website
 ---
+The refactored website has been deployed using GitHub Pages.
 
-To be completed
+<a href="https://beanalini.github.io/UBHM-Code-Refactor/"> Link to the refactored website</a>
 
 
 
