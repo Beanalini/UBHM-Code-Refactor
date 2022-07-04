@@ -4,7 +4,7 @@ The Code refactoring project contained in this repository details coursework set
 
 
 ## Project Description
----
+
 The aim of this project  was to refactor the codebase (starter code) for a marketing agencies website to make it more accessable, efficient and sustainable without altering the website layout. 
 
 <a href="https://github.com/coding-boot-camp/urban-octo-telegram.git"> Link to the starter code repository</a>
@@ -17,13 +17,13 @@ The aim of this project  was to refactor the codebase (starter code) for a marke
 
 
 ## Project Requirements
----
 
-In addition to following the Scout Rule (leave the code cleaner than when you found it), the following user story and accpetance criteria  needed to be met:
+
+In addition to following the Scout Rule (leave the code cleaner than when you found it), the following user story and acceptance criteria  needed to be met:
 
 ### User Story
 ```
-As a marketing agency I WANT a codebase that follows accessibility standards So That our own site is optimised for search engines.
+As a marketing agency I WANT a codebase that follows accessibility standards So That our own site is optimised for search engines
 ```
 
 
@@ -50,8 +50,8 @@ THEN I find a concise, descriptive title
 In order to meet the acceptance criteria I split the tasks into HTML and CSS code sections and then broke each section down into smaller tasks.
 
 ### HTML Code Tasks
-1. Check Functionality
-1. Semantic Elements
+1. Check functionality
+1. Semantic flements
 1. Accessibility and Search Engine Optimisation (SEO)
 1. Code readability 
 
@@ -85,16 +85,16 @@ I improved the readability of the code to provide a clear and visible code struc
 
 
 ### CSS Code Tasks
-1. Restructure Code
-1. Reduce Cpecificity
-1. Reduce Repetition 
-1. Code Readability 
+1. Restructure code
+1. Reduce specificity
+1. Reduce repetition 
+1. Improve readability 
 
-#### 1. Restructuring code
+#### 1. Restructuring Code
 
 The stater CSS code was disorganised making it   awkward to locate code and needed restructuring to provide a logical flow. I  restructured the code so that global and semantic HTML selectors appeared at the top of the style file followed by groupings which reflected the semantic structure of the HTML file.
 
-#### 2. Reduce specificity
+#### 2. Reduce Specificity
 
 Reduced over qualifying selectors i.e. selectors that are more specific than is required to style an element.  For example, in the starter CSS file the following code snippet uses three levels of specificity.
 
@@ -114,11 +114,13 @@ This has been changed to:
 ```
 #### 3. Reduce Code Repetition
 
-Code has been repeated in the starter file to style the same sections using a different selector.  In order to reduce code repetition and create reusable classes, I defined single class names where appropriate which can then be added to multiple elements.
+The same code has been repeated in the starter file to style the same sections using multiple  selectors.  In order to reduce code repetition and create reusable classes, I defined single class names where appropriate which can then be added to multiple elements. 
+
+The same font family property had been set in various selectors. To reduce repition I placed this property in the body element selector. I removed the p element selector and placed this in the body selector.
 
 #### 4. Code Readability 
 
-Added descriptive comments. 
+Checked code was indented and added descriptive comments. 
 
 ## Deployed Website
 ---
