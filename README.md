@@ -23,7 +23,8 @@ In addition to following the Scout Rule (leave the code cleaner than when you fo
 
 ### User Story
 ```
-As a marketing agency I WANT a codebase that follows accessibility standards So That our own site is optimised for search engines
+As a marketing agency I WANT a codebase that follows accessibility
+standards So That our own site is optimised for search engines
 ```
 
 
@@ -51,8 +52,8 @@ In order to meet the acceptance criteria I split the tasks into HTML and CSS cod
 
 ### HTML Code Tasks
 1. Check functionality
-1. Semantic flements
-1. Accessibility and Search Engine Optimisation (SEO)
+1. Check HTML code uses a semantic element structure
+1. Check element accessibility and Search Engine Optimisation (SEO) properties
 1. Code readability 
 
 #### 1. Functionality
@@ -61,14 +62,14 @@ In order to meet the acceptance criteria I split the tasks into HTML and CSS cod
 This involved checking that website user interaction functioned correctly.   The only user interaction are  links in the navigation bar.
 
 
- Issue: Online Reputation Management link broken 
+ Issue found: Online Reputation Management link broken 
  Fix: Added ID attribute to 'Search Engine Optimization' section element.
 
 #### 2. Semantic Elements   
 
   The layout of the starter website has been constructed using div elements. I restructured the HTML code and replaced the div containers with header, main, content, aside and footer semantic HTML elements.  
 
-#### 3. Accessibility and SEO 
+#### 3. Element Accessibility and SEO Properties 
 
 The following changes were made to improve accessibility using assistative technologies and SEO ratings:
 
@@ -87,7 +88,7 @@ I improved the readability of the code to provide a clear and visible code struc
 ### CSS Code Tasks
 1. Restructure code
 1. Reduce specificity
-1. Reduce repetition 
+1. Reduce repetition (merge selctors and remove repeated code)
 1. Improve readability 
 
 #### 1. Restructuring Code
