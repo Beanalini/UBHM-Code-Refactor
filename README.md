@@ -124,6 +124,8 @@ The refactored website has been deployed using GitHub Pages.
 
 <a href="https://beanalini.github.io/UBHM-Code-Refactor/"> Link to the refactored website</a>
 
+<a href="https://github.com/Beanalini/UBHM-Code-Refactor"> Link to the refactored code repository</a>
+
 ## Technologies Used
 
 - HTML
